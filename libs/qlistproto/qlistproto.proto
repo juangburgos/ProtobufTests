@@ -1,0 +1,37 @@
+syntax = "proto3";
+
+message ListElement {
+	uint32 elem_id     = 1;
+	string elem_name   = 2;
+	string client_name = 3;
+}
+
+message ListRequest {
+	uint32 request_id  = 1;
+
+	enum Type {
+		NULL_TYPE     = 0;
+		GET_NAME      = 1;
+		GET_ALL_USERS = 2;
+		GET_NEW_USER  = 3;
+		INSERT_USER   = 4;
+	}
+	Type request_type = 2;
+
+	ListElement element = 3;
+}
+
+message ListResponse {
+	uint32 request_id  = 1;
+
+	enum Result {
+		NULL_RESULT = 0;
+		SUCCESS     = 1;
+		REJECTED    = 2;
+	}
+	Result result_info = 2;
+
+	string client_name = 3;
+
+	repeated ListElement elements = 4;
+}

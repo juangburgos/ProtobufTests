@@ -1,0 +1,211 @@
+QPushButton, QLineEdit, QLabel, QSpinBox {
+    height : 24px ;
+}
+
+QPushButton {
+    background-color           : rgb(0, 123, 255) ;
+    border-bottom-color        : rgb(0, 123, 255) ;
+    border-bottom-left-radius  : 4px ;
+    border-bottom-right-radius : 4px ;
+    border-bottom-style        : solid ;
+    border-bottom-width        : 1px ;
+    border-left-color          : rgb(0, 123, 255) ;
+    border-left-style          : solid ;
+    border-left-width          : 1px ;
+    border-right-color         : rgb(0, 123, 255) ;
+    border-right-style         : solid ;
+    border-right-width         : 1px ;
+    border-top-color           : rgb(0, 123, 255) ;
+    border-top-left-radius     : 4px ;
+    border-top-right-radius    : 4px ;
+    border-top-style           : solid ;
+    border-top-width           : 1px ;
+    color                      : rgb(255, 255, 255) ;
+    font-family                : -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" ;
+    font-size                  : 16px ;
+    font-style                 : normal ;
+    font-weight                : 400 ;
+    line-height                : 24px ;
+    margin-bottom              : 4px ;
+    margin-left                : 0px ;
+    margin-right               : 0px ;
+    margin-top                 : 4px ;
+    padding-bottom             : 6px ;
+    padding-left               : 12px ;
+    padding-right              : 12px ;
+    padding-top                : 6px ;
+    text-align                 : center ;
+    text-indent                : 0px ;
+    text-transform             : none ;
+    vertical-align             : middle ;
+    width                      : 80px ;
+}
+
+QPushButton:hover {
+    background-color : rgb(0, 105, 217) ;
+}
+
+QPushButton:pressed {
+    border-bottom-color : rgb(146, 199, 255) ;
+    border-bottom-width : 4px ;
+    border-left-color   : rgb(146, 199, 255) ;
+    border-left-width   : 4px ;
+    border-right-color  : rgb(146, 199, 255) ;
+    border-right-width  : 4px ;
+    border-top-color    : rgb(146, 199, 255) ;
+    border-top-width    : 4px ;
+}
+
+QPushButton::!enabled {
+    background-color : rgb(240, 240, 240) ;
+    border-color     : rgb(206, 212, 218) ;
+    color            : rgb(120, 120, 120) ;
+}
+
+QLineEdit {
+    background-clip            : padding-box ;
+    border-bottom-color        : rgb(206, 212, 218) ;
+    border-bottom-left-radius  : 4px ;
+    border-bottom-right-radius : 4px ;
+    border-bottom-style        : solid ;
+    border-bottom-width        : 1px ;
+    border-left-color          : rgb(206, 212, 218) ;
+    border-left-style          : solid ;
+    border-left-width          : 1px ;
+    border-right-color         : rgb(206, 212, 218) ;
+    border-right-style         : solid ;
+    border-right-width         : 1px ;
+    border-top-color           : rgb(206, 212, 218) ;
+    border-top-left-radius     : 4px ;
+    border-top-right-radius    : 4px ;
+    border-top-style           : solid ;
+    border-top-width           : 1px ;
+    color                      : rgb(73, 80, 87) ;
+    font-family                : -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" ;
+    font-size                  : 16px ;
+    font-style                 : normal ;
+    font-weight                : 400 ;
+    line-height                : 24px ;
+    margin-bottom              : 0px ;
+    margin-left                : 0px ;
+    margin-right               : 0px ;
+    margin-top                 : 0px ;
+    padding-bottom             : 6px ;
+    padding-left               : 12px ;
+    padding-right              : 12px ;
+    padding-top                : 6px ;
+    text-align                 : start ;
+    text-indent                : 0px ;
+    text-transform             : none ;
+}
+
+QLineEdit::!enabled {
+    background-color : rgb(240, 240, 240) ;
+}
+
+QLabel {
+    border-box*,  : :after, ::before color: rgb(33, 37, 41) ;
+    font-family   : -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" ;
+    font-size     : 16px ;
+    font-weight   : 400 ;
+    line-height   : 24px ;
+    margin-bottom : 8px ;
+    text-align    : left ;
+}
+
+QLabel#labelConfiguration, QLabel#labelUsers {
+    font-size                  : 18px ;
+    font-weight                : 450  ;
+    border-bottom-color        : rgb(206, 212, 218) ;
+    border-bottom-left-radius  : 0px ;
+    border-bottom-right-radius : 0px ;
+    border-bottom-style        : solid ;
+    border-bottom-width        : 1px ;
+}
+
+QGroupBox::title
+{
+    margin-left : 15px ;
+    margin-top  : -25px ;
+}
+
+QSpinBox {
+    background-clip            : border-box ;
+    background-origin          : padding-box ;
+    background-repeat-x        : ;
+    background-repeat-y        : ;
+    border-bottom-color        : rgb(186, 206, 228) ;
+    border-bottom-left-radius  : 4px ;
+    border-bottom-right-radius : 4px ;
+    border-bottom-style        : solid ;
+    border-bottom-width        : 1px ;
+    border-left-color          : rgb(186, 206, 228) ;
+    border-left-style          : solid ;
+    border-left-width          : 1px ;
+    border-right-color         : rgb(186, 206, 228) ;
+    border-right-style         : solid ;
+    border-right-width         : 1px ;
+    border-top-color           : rgb(186, 206, 228) ;
+    border-top-left-radius     : 4px ;
+    border-top-right-radius    : 4px ;
+    border-top-style           : solid ;
+    border-top-width           : 1px ;
+    border-box*,               : :after, ::before border-boxselect color: rgb(73, 80, 87) ;
+    font-family                : -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" ;
+    font-size                  : 16px ;
+    font-style                 : normal ;
+    font-weight                : 400 ;
+    line-height                : 24px ;
+    margin-bottom              : 4px ;
+    margin-left                : 0px ;
+    margin-right               : 0px ;
+    margin-top                 : 4px ;
+    padding-bottom             : 6px ;
+    padding-left               : 12px ;
+    padding-right              : 28px ;
+    padding-top                : 6px ;
+    text-align                 : start ;
+    text-indent                : 0px ;
+    text-transform             : none ;
+    vertical-align             : middle ;
+    white-space                : pre ;
+}
+
+QSpinBox::!enabled {
+    background-color : rgb(240, 240, 240) ;
+    border-color     : rgb(206, 212, 218) ;
+}
+
+QTableView {
+    border-bottom-color : rgb(128, 128, 128) ;
+    border-left-color   : rgb(128, 128, 128) ;
+    border-right-color  : rgb(128, 128, 128) ;
+    border-top-color    : rgb(128, 128, 128) ;
+    color               : rgb(33, 37, 41) ;
+    font-family         : -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" ;
+    font-size           : 16px ;
+    font-weight         : 400 ;
+    line-height         : 24px ;
+    text-align          : left ;
+}
+
+QHeaderView::section {
+    height      : 30px ;
+    font-size   : 16px ;
+    font-style  : normal ;
+    font-weight : 450 ;
+}
+
+QHeaderView {
+    border              : 1px solid rgb(130, 135, 144);
+    border-bottom-width : 1px ;
+    border-left-width   : 0px ;
+    border-right-width  : 0px ;
+    border-top-width    : 0px ;
+}
+
+QMessageBox::title {
+    font-size   : 26px ;
+    font-style  : normal ;
+    font-weight : 450 ;
+}

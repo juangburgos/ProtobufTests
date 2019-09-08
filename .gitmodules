@@ -1,0 +1,11 @@
+[submodule "libs/protobuf.git"]
+	path = libs/protobuf.git
+	url = https://github.com/protocolbuffers/protobuf.git
+[submodule "libs/qconsolelistener.git"]
+	path = libs/qconsolelistener.git
+	url = https://github.com/juangburgos/QConsoleListener.git
+	branch = master
+[submodule "libs/qdeferred.git"]
+	path = libs/qdeferred.git
+	url = https://github.com/juangburgos/QDeferred.git
+	branch = master
