@@ -27,7 +27,7 @@ Run `qmake` on root project:
 qmake -r -tp vc tests.pro
 msbuild tests.sln
 # Linux
-qmake -r vc tests.pro
+qmake -r tests.pro
 make all
 ```
 
